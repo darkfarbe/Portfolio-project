@@ -5,7 +5,11 @@ h1 {
 }
 
 .developer-details {
-  background-color: #f9f7fe;
+  background: linear-gradient(
+    183deg,
+    rgba(101, 114, 200, 1) 0%,
+    rgba(249, 247, 254, 1) 89%
+  );
   text-align: center;
   padding: 90px;
 }
@@ -20,4 +24,18 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 20px;
+  margin: 30px auto;
+}
+
+.btn-contact {
+  background-color: rgb(101, 114, 200);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  color: black;
+  border: 2px solid rgb(101, 114, 200);
 }
