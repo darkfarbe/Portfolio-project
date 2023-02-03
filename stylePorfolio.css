@@ -1,3 +1,23 @@
 h1 {
-  color: brown;
+  font-size: 70px !important;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+}
+
+.developer-details {
+  background-color: #f9f7fe;
+  text-align: center;
+  padding: 90px;
+}
+
+.developer-details h3 {
+  font-size: 36px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+.developer-details h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
 }
