@@ -73,3 +73,10 @@ img {
 .img-aboutMe {
   border-radius: 50%;
 }
+
+.footer-style {
+  background-color: #f9f7fe;
+  padding: 25px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+}
