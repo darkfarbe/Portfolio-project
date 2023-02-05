@@ -2,16 +2,23 @@ h2 {
   margin-bottom: 25px;
 }
 p {
-  margin: 65px auto !important;
-  padding: 40px;
+  margin: 65px auto 10px !important;
+  padding: 40px 40px 10px;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+  text-align: justify;
+  /* display: flex;
+  flex-direction: column; */
   align-items: center;
   margin-bottom: 40px;
   line-height: 40px;
+  width: 100%;
+}
+
+.flexy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
@@ -62,14 +69,16 @@ img {
   margin: 30px auto;
 }
 
-.btn-contact {
+a.btn-contact {
+  font-family: "Poppins", sans-serif;
   background-color: rgb(101, 114, 200);
   color: #fff;
-  padding: 4px 10px;
+  padding: 10px 14px;
   border-radius: 10px;
   text-decoration: none;
   border: 2px solid transparent;
   font-size: 12px;
+  line-height: 3;
 }
 
 .btn-contact:hover {
@@ -113,6 +122,10 @@ i {
   color: rgb(101, 114, 200);
 }
 
+.bold {
+  font-weight: 600;
+}
+
 @media (max-width: 576px) {
   .heading-1 {
     font-size: 30px !important;
@@ -137,5 +150,10 @@ i {
 
   img {
     margin: 20px auto;
+  }
+
+  a.btn-contact {
+    margin-bottom: 16px;
+    padding: 3px 9px;
   }
 }
