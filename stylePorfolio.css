@@ -100,7 +100,6 @@ a.btn-contact {
   background-color: #f9f7fe;
   padding: 25px;
   font-family: "Libre Baskerville", serif;
-  font-weight: bold;
 }
 
 .footer-style a {
@@ -124,6 +123,10 @@ i {
 
 .bold {
   font-weight: 600;
+}
+
+.git_link {
+  text-align: center;
 }
 
 @media (max-width: 576px) {
